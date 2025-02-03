@@ -2,7 +2,9 @@
 
 -Create React App
 -Configured Tailwind CSS
-
+-Header With Logo
+-Login Form 
+-Sign Up Form 
 
 # Feature in NetflixGPT
 
