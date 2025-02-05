@@ -5,7 +5,16 @@
 -Header With Logo
 -Login Form 
 -Sign Up Form 
-
+-Form validation
+-useRef Hook (For Input refrence)
+-Deploy our app in firebase
+-Create SignUp User Account
+-Implement Sign In  user Api
+-Created Redux Store with userSlice
+-Implemented Sign Out Feature
+-Added Redux
+-Update Profile Done
+-Fetch Movies From TMDB
 # Feature in NetflixGPT
 
 -Login/Sign Up
