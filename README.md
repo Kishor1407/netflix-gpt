@@ -15,8 +15,19 @@
 -Added Redux
 -Update Profile Done
 -Fetch Movies From TMDB
-
-
+-Cannot go to /browse pagewithout login and / page    without logout
+-Unsubscribed to onAuthStateChanged Callback
+-Register in TMDB APP create an app and get access token and key
+-Call the TMDB api and get the data
+-created custom hook for nowplayingmovies
+-updated store with moviesdata
+-created a movie slice
+-updated store with movie data
+-planning for maincontainer and secondary container
+- fetch data for trailer video
+-update store with trailer video data
+-embedded the youtube video and made autoplay and mute
+-added tailwind nd built video tiltle and video background well
 
 # Feature in NetflixGPT
 -Login/Sign Up
