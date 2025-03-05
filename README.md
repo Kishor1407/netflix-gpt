@@ -15,8 +15,10 @@
 -Added Redux
 -Update Profile Done
 -Fetch Movies From TMDB
-# Feature in NetflixGPT
 
+
+
+# Feature in NetflixGPT
 -Login/Sign Up
     -Sign In / Sign Up Form
     -redirect to Browse Page
@@ -24,7 +26,7 @@
 -Browse (After Authentication)
     -Header
     -Main Movie
-        -Trailer in BAckground
+        -Trailer in Background
         -Title and Description
         - Movie Suggestions
             -Movie Lists * N (Horizontally Scrolable)

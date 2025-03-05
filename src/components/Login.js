@@ -46,7 +46,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name.current.value,
-            photoURL: "https://www..com/in/kishor-hegge-09b486210/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJTrTHFsLQ3mET7rnrA22PA%3D%3D"
+            photoURL: "https://avatars.githubusercontent.com/u/93866205?v=4"
           }).then(() => {
             const { uid, email, displayName, photoURL } = auth.currentUser;
                     dispatch(
