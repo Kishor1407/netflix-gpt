@@ -4,6 +4,7 @@ import VideoTitle from './VideoTitle';
 import VideoBackground from './VideoBackground';
 const MainContainer = () => {
     const movies = useSelector((store)=>store.movies?.nowPlayingMovies);
+    
     //above line fetch movies data from store
     if (!movies || movies.length === 0) return <div>Loading...</div>;
 

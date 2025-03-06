@@ -9,8 +9,7 @@ import { useEffect } from 'react'
 import {USERR} from "../utils/constant"
 import { addUser, removeUser } from '../utils/userSlice'
 import { LOGO } from '../utils/constant'
-import accountimg from "../assets/accountimg.png"
-
+import netflixlogin from "../assets/netflixlogin.jpg"
 const Header = () => {
   const navigate = useNavigate();
   const user = useSelector(store=> store.user);
@@ -57,8 +56,8 @@ const Header = () => {
       {
         user && (
           <div className='flex'> 
-          <img  className="w-10 h-10 mt-2 "  src={accountimg} alt="" />
-          <button onClick={handleSignOut} className='bg-red-500 w-25 h-10 ml-2 rounded-lg font-bold text-white p-1 m-2'>Sign Out</button>
+          <img  className="w-10 h-10 mt-2 rounded-sm"  src={netflixlogin} alt="" />
+          <button onClick={handleSignOut} className=' w-25 h-10 ml-2 rounded-lg font-bold text-white p-1 m-2'>(Sign Out)</button>
         </div>
         )
       }
