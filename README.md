@@ -28,6 +28,11 @@
 -update store with trailer video data
 -embedded the youtube video and made autoplay and mute
 -added tailwind nd built video tiltle and video background well
+-Secondary Container Built using Movie list and Movie Card
+-Used TMDB imageCDN_URL 
+
+
+
 
 # Feature in NetflixGPT
 -Login/Sign Up
