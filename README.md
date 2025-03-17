@@ -30,8 +30,10 @@
 -added tailwind nd built video tiltle and video background well
 -Secondary Container Built using Movie list and Movie Card
 -Used TMDB imageCDN_URL 
-
-
+-GPT search 
+-GPT search bar
+-Added multi-language feature to our website
+-Integrate GPT API (get openAI key and use in our app for integrating api)
 
 
 # Feature in NetflixGPT
