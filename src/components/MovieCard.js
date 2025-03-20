@@ -1,6 +1,10 @@
 import React from 'react'
 import { img_cdn_url } from '../utils/constant'
+
+
 const MovieCard = ({posterPath}) => {
+
+  if(!posterPath) return null;
     console.log(img_cdn_url+posterPath);
 
   return (

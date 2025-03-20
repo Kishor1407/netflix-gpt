@@ -9,11 +9,11 @@ const SecondaryContainer = () => {
 <div className='mt-[-276px] relative z-20'>
   
 <MovieList title={"Now Playing"} movies={movies?.nowPlayingMovies}/>   
-               <MovieList title={"Popular Movies"} movies={movies?.popularMovies}/>    
-               <MovieList title={"Comedy Movies"} movies={movies?.nowPlayingMovies}/>    
-               <MovieList title={"Action Movies"} movies={movies?.nowPlayingMovies}/>    
-               <MovieList title={"Horror Movies"} movies={movies?.nowPlayingMovies}/>    
-               <MovieList title={"Romantic Movies"} movies={movies?.nowPlayingMovies}/>   </div> 
+<MovieList title={"Trending Movies"} movies={movies?.popularMovies}/>  //this is usePopularMovies but used Trending Movies API  
+               <MovieList title={"Top Rated Movies"} movies={movies?.topRatedMovies}/>    
+               <MovieList title={"Upcoming Movies"} movies={movies?.upcomingMovies}/>    
+               <MovieList title={"Most Watched Movies"} movies={movies?.horrorMovies}/>  
+                 </div> 
                 
     </div>
   )
