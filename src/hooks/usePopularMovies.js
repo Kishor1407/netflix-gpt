@@ -15,8 +15,10 @@ const usePopularMovies =()=>{
       const json = await data.json();
       dispatch(addPopularMovies(json.results));
     }
+    getPopularMovies();
+
     if(!popularMovies){
-      getPopularMovies();
+      // getPopularMovies();
     }
   },[dispatch])
 

@@ -10,8 +10,8 @@ const MovieList = ({title,movies}) => {
 
     <div className='flex overflow-x-scroll no-scrollbar'
             style={{
-                scrollbarWidth: "none", // Hides scrollbar in Firefox
-                msOverflowStyle: "none", // Hides scrollbar in Internet Explorer and Edge
+                scrollbarWidth: "none", 
+                msOverflowStyle: "none", 
               }}>
         <div className='flex'>
        {movies?.map((movie)=> <MovieCard key={movie.id} posterPath={movie.poster_path}/>)}

@@ -13,8 +13,10 @@ const useTopRatedMovies=()=>{
             const json = await data.json();
             dispatch(addTopRatedMovies(json.results));
         }
+        getTopRatedMovies();
+
         if(!topRatedMovies){
-            getTopRatedMovies();
+            // getTopRatedMovies();
           }
     },[dispatch])
 }

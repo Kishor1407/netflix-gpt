@@ -18,8 +18,10 @@ const useTrailerVideo=(movieid)=>{
       };
     
       useEffect(() => {
+        getMovieVideos();
+        
         if(!trailerVideo){
-          getMovieVideos();
+          // getMovieVideos();
         }
       }, [movieid]);
 }

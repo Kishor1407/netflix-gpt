@@ -16,9 +16,10 @@ const useNowPlayingMovies =()=>{
       const json = await data.json();
       dispatch(addNowPlayingMovies(json.results));
     }
+    getNowPlayingMovies();
 
     if(!nowPlayingMovies){
-      getNowPlayingMovies();
+      // getNowPlayingMovies();
     }
   },[dispatch])
 

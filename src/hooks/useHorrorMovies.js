@@ -14,8 +14,10 @@ const useHorroMovies=()=>{
             const json = await data.json();
             dispatch(addHorrorMovies(json.results));
         }
+        getHorrorMovies();
+
         if(!horrorMovies){
-            getHorrorMovies();
+            // getHorrorMovies();
           }
     },[dispatch])
 }

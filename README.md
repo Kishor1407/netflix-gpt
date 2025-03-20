@@ -34,6 +34,7 @@
 -GPT search bar
 -Added multi-language feature to our website
 -Integrate GPT API (get openAI key and use in our app for integrating api)
+-Made Responsive
 
 
 # Feature in NetflixGPT

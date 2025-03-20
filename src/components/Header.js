@@ -65,7 +65,8 @@ const Header = () => {
 
 
   return (
-    <div className='absolute px-8 py-2 w-full bg-gradient-to-b from-black z-40 flex justify-between'>
+    <div className='absolute px-8 py-2 w-full bg-gradient-to-b  from-black z-40 flex justify-between'>
+      
       <img 
       className="w-52 h-20 z-40"
       src={LOGO} alt="logo" />
@@ -74,16 +75,15 @@ const Header = () => {
         user && (
           <div className='flex'> 
           {
-            showGptSearch &&          <select className='px-4 mt-4 mb-8 mx-2 bg-red-500 text-white rounded-lg' onChange={handleLanguageChange}>
+            showGptSearch && <select className='px-2 mt-4 mb-12 mx-1 w-24 bg-red-500 text-white rounded-lg' onChange={handleLanguageChange}>
             {supportedLanguages.map(lang=>
               <option className='' value={lang.identifier} key={lang.identifier}>{lang.name}</option>
             )}
-
           </select>
           }
-          <button onClick={handleGPTSearchCLick} className='px-4 mt-4 mb-8 mx-2 rounded-lg bg-red-500 text-white'>{showGptSearch?"Home Page" : "GPT Search"}</button>
-          <img  className="w-10 h-10 mt-2 rounded-sm"  src={netflixlogin} alt="" />
-          <button onClick={handleSignOut} className=' w-25 h-10 ml-2 rounded-lg font-bold text-white p-1 m-2'>(Sign Out)</button>
+          <button onClick={handleGPTSearchCLick} className='px-2 mt-4 mb-12 mx-2 rounded-lg bg-red-500 text-white'>{showGptSearch?"Home Page" : "GPT Search"}</button>
+          <img  className="w-8 h-8 mt-2 rounded-sm"  src={netflixlogin} alt="" />
+          <button onClick={handleSignOut} className=' w-25 h-10 ml-2 rounded-lg text-md font-bold text-white p-1 m-2'>(Sign Out)</button>
         </div>
         )
       }

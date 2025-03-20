@@ -92,7 +92,7 @@ const Login = () => {
     <div className="">
       <Header />
       <div className="absolute">
-        <img
+        <img className=""
           src={bg_url}
           alt=""
         />
