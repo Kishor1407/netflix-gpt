@@ -17,10 +17,6 @@ export const LOGO =
  }
  
 //If you want to protect your tmdb apikey and openai apikey the use process.env.REACT_APP_TMDB_KEY or process.env.REACT_APP_OPENAI_KEY use directly dont put this process.env thing in string "Bearer" + process.env.REACT_APP_TMDB_KEY and directly key in process.env.REACT_APP_OPENAI_KEY.
- 
- 
-
-
 export const openAIKey=process.env.REACT_APP_OPENAI_KEY;
 export const googleAIKey=process.env.REACT_APP_GOOGLE_AI_KEY;
 
