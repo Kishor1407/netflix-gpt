@@ -12,20 +12,21 @@ export const LOGO =
     method:"GET",
     headers:{
         accept:"application/json",
-        Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYjM2NDg0NTMzZGQ4OWViNzVhNWUzODlkNDEwYmI2OCIsIm5iZiI6MTc0MDY4MDM2MS42MjYsInN1YiI6IjY3YzBhY2E5OGMzODZjNGU1YmM4ZTRkOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GbTFzqdS6FSKICnHJS1OuaXPNm0XRaTUdWC-CSyTZ7E"
-       //Authorization:"Bearer ${process.env.REACT_APP_TMDB_KEY}"
+        //Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYjM2NDg0NTMzZGQ4OWViNzVhNWUzODlkNDEwYmI2OCIsIm5iZiI6MTc0MDY4MDM2MS42MjYsInN1YiI6IjY3YzBhY2E5OGMzODZjNGU1YmM4ZTRkOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GbTFzqdS6FSKICnHJS1OuaXPNm0XRaTUdWC-CSyTZ7E"
+       Authorization:`Bearer ${process.env.REACT_APP_TMDB_KEY}`
       },
  }
  
 //If you want to protect your tmdb apikey and openai apikey the use process.env.REACT_APP_TMDB_KEY or process.env.REACT_APP_OPENAI_KEY use directly dont put this process.env thing in string "Bearer" + process.env.REACT_APP_TMDB_KEY and directly key in process.env.REACT_APP_OPENAI_KEY.
 
- export const openAIKey="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";
- export const googleAIKey="AIzaSyAq5x4zv-UbyPnTcfdXQP5P1J08FjMB_Zk";
+//  export const openAIKey="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";
+//  export const googleAIKey="AIzaSyAq5x4zv-UbyPnTcfdXQP5P1J08FjMB_Zk";
  
 
 
-// export const openAIKey=process.env.REACT_APP_OPENAI_KEY;
-// export const googleAIKey=process.env.REACT_APP_GOOGLE_AI_KEY;
+export const openAIKey=process.env.REACT_APP_OPENAI_KEY;
+export const googleAIKey=process.env.REACT_APP_GOOGLE_AI_KEY;
+
 // console.log("TMDB Key:", process.env.REACT_APP_TMDB_KEY);
 // console.log("TMDB Key:", openAIKey);
 
